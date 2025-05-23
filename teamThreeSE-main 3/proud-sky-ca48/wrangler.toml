@@ -1,0 +1,16 @@
+name = "proud-sky-ca48"
+main = "src/src/index.js"
+compatibility_date = "2023-08-23"
+workers_dev = true
+
+[[d1_databases]]
+binding = "DATABASE"
+database_name = "t3Data"
+database_id = "c397f3af-3494-4e75-9c46-94995bb9ee5d"
+
+[triggers]
+crons = ["*/5 * * * *"]
+
+[[kv_namespaces]]
+binding = "workerPersistantVars"
+id = "c2a0510255624e2b805d09601fd7775e"

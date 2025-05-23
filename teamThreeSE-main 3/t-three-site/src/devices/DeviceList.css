@@ -1,0 +1,18 @@
+.deviceListBase{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.deviceList {
+    border-radius: 5%;
+    border: 5px solid black;
+    align-content: center;
+    border-radius: 5%;
+    padding: 5%;
+}
+
+.deviceList li {
+    list-style: none;;
+}

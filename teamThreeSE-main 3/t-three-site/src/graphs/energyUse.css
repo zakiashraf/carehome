@@ -1,0 +1,35 @@
+.energyBase {
+    width: 90%;
+    padding: 20px;
+    /* border: 1px solid black;
+    border-radius: 5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    margin-bottom: 20px;
+}
+
+.segmented-control {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+}
+  
+.segment {
+    flex: 1;
+    text-align: center;
+    padding: 8px 12px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    color: var(--icon-color);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+  
+.segment.active {
+    background-color: var(--icon-color);
+    color: #fff;
+}
+  
+.segment:not(.active):hover {
+    background-color: #e0e0e0;
+}
+  

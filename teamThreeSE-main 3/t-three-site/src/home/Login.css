@@ -1,0 +1,66 @@
+.loginBase{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.loginBox {
+    width: 50%;
+    height: 50%;
+    background-color: #f0f0f0;
+    border-radius: 20px; /* Increased for smoother, rounder edges */
+    box-shadow:  6px 6px 15px rgba(5, 120, 200, 0.6), 6px 6px 15px rgba(5, 120, 200, 0.6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input {
+    border-radius: 20px; /* Increased for smoother, rounder edges */
+    width: 40%;
+    height: 8%;
+    border: 2px solid #ffffff;
+    padding-left: 1%;
+    font-size: 16px; /* Adjusts input text size */
+    margin-bottom: 5%;
+    outline: none; /* Removes the pink outline */
+}
+
+.input:hover{
+    border: 2px solid rgb(64, 147, 225);
+}
+
+.input:focus{
+    border: 2px solid rgb(64, 147, 225);
+}
+
+.label {
+    align-self: flex-start;
+    margin-left: 30%;
+    font-weight: bold;
+    margin-bottom: 1%;
+}
+
+.loginButton {
+    border: none;
+    width: 40%;
+    height: 8%;
+    border-radius: 20px; /* Increased for smoother, rounder edges */
+    background-color: rgb(64, 147, 225);
+    margin-top: 10%;
+    transition: 0.3s; /* Smooth transition for hover effects */
+    color: #f0f0f0;
+    font-size: large;
+}
+
+.loginButton:hover{
+    background-color: rgb(8, 117, 218);
+    cursor: pointer;
+}
+
+.errorLogin{
+    color: red;
+}
+

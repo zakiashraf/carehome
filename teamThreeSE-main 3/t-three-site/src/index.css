@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+:root {
+  --background-color: #ffffff;
+  --text-color:rgba(5, 120, 200);
+  --header-background: rgb(208, 255, 202);
+  --header-text-color: black;
+  --btn-primary-background: rgba(5, 120, 200, 1.0);
+  --btn-primary-text-color: white;
+  --btn-logout-background: #ea4b4b;
+  --icon-color: rgba(5, 120, 200);
+  --icon-gradient: linear-gradient(45deg, rgba(5, 120, 200, 1.0), rgba(3, 149, 32, 0.8));
+  --Card--Background: #f2f2f2;
+  --device-section-background: #f9f9f9;
+  --shadow--effect: 6px 6px 15px rgba(5, 120, 200, 0.6), 6px 6px 15px rgba(5, 120, 200, 0.6);
+  --scroll--bar-color : #007bff;
+  --drop-menu: rgba(205, 205, 205, 0.874);
+  --input-text-color: rgb(35, 35, 35);
+  --text--: rgb(35, 35, 35);
+}
+
+
+
+.theme-dark {
+  --background-color: rgba(33,33,33,255);
+  --text-color:#b9b9b9;
+  --header-background: #444;
+  --header-text-color: #eaeaea;
+  --btn-primary-background:rgb(122, 5, 200, 1.0);
+  --btn-primary-text-color: #222;
+  --btn-logout-background: #ff4a4a;
+  --icon-color: rgb(122, 5, 200, 1.0);
+  --icon-gradient: linear-gradient(45deg, rgb(122, 5, 200, 1.0), rgba(4, 1, 101, 1.0));
+  --device-section-background: rgba(23,23,23,255);
+  --Card--Background: rgba(47,47,47,255);
+  --shadow--effect: 6px 6px 15px rgb(122, 5, 200, 1.0), 0px 0px 25px rgb(5, 0, 146,1.0);
+  --input-text-color: rgb(241, 241, 241);
+  --text--: rgb(214, 214, 214);
+}
+

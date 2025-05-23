@@ -1,0 +1,132 @@
+
+.deviceDetailsBase {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding: 20px;
+  overflow-y: auto;
+  margin: auto; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+}
+
+
+.deviceDetailsContainer {
+  background: var(--device-section-background);
+  padding: 2%;
+  border-radius: 5%;
+  margin-bottom: 5%;
+
+  text-align: center;
+  box-shadow: var(--shadow--effect);
+  color: var(--text--);
+}
+
+
+
+.deviceDetailsContainer p {
+  margin: 8px 0;
+  color: #555;
+  font-size: 14px;
+  margin-left: 4px;
+}
+
+.deviceDetailSpecifics {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 5%;
+  padding-bottom: 5%;
+
+
+}
+
+
+.automationList {
+  background: var(--device-section-background);
+  padding: 2%;
+  border-radius: 5%;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+  color: var(--text--);
+  box-shadow: var(--shadow--effect);
+}
+
+
+.automationList select, 
+.automationList input {
+  padding: 1%;
+  border-radius: 5%;
+  border: 1px solid #ccc;
+  margin: 5px;
+  background: var(--Card--Background);
+  color: var(--text--);
+
+}
+
+
+.automationButton{
+  margin-top: 1%;
+  background-color: #4bdaea;
+  color: white;
+}
+
+
+
+button {
+  padding: 1%;
+  text-decoration: none;
+  border-radius: 5%;
+  font-weight: bold;
+  transition: 0.3s;
+  border: none;
+  cursor: pointer;
+  margin-right: 4px;
+
+}
+
+
+
+.deleteButton {
+  background: #dc3545;
+  color: white;
+}
+
+
+
+
+
+
+.confirmDelete {
+  background: #fff;
+  border-radius: 5%;
+  padding: 2%;
+  text-align: center;
+}
+
+.confirmDelete p {
+  color: #dc3545;
+  font-weight: bold;
+}
+
+
+
+
+.automationItem {
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  background: var(--Card--Background);
+}
+
+
+.automationItem button {
+  background: #dc3545;
+  color: white;
+
+}

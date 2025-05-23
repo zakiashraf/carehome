@@ -1,0 +1,64 @@
+/* General Page Styling */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.add-device-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Keeps content centered */
+    min-height: 70vh; /* Maintain a balanced height */
+    background: var(--device-section-background); /* Soft gradient */
+    padding: 20px 40px;
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    max-width: 500px;
+    margin: auto; /* Centers horizontally */
+    margin-top: 30px; /* Moves the container lower */
+    box-shadow: var(--shadow--effect);
+}
+
+
+.add-device-container h1 {
+    font-size: 27px;
+    color: var(--text-color);
+    margin-bottom: 20px;
+}
+
+.add-device-container p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.add-device-container input,
+.add-device-container select {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background: var(--Card-background);
+    color: var(--input-text-color);
+}
+
+.add-device-container button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-device-container button:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,116 @@
+/* Header Container */
+.home-header {
+  /* position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center; */
+  padding: 1%;
+  background-color: var(--background-color);
+  color: black;
+  min-height: 4vh;
+  margin-right: 50px;
+  
+
+ 
+}
+
+/* Centered Header Text */
+.home-header h1 {
+  font-size: 48px;
+  margin: 0;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header-right {
+  float: right;
+  /* Optionally, you could add display: inline-flex; here if you want flex alignment */
+}
+
+/* Add gap between buttons within the header-right */
+.header-right button + button {
+  margin-left: 10px;
+}
+
+.header-left {
+  float: left;
+  color: var(--text--);
+}
+
+/* Logout Button Styling */
+.logoutButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  background-color: #ea4b4b;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.homeButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  background-color: #4bdaea;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.homeButton:hover,
+.logoutButton:hover {
+  background-color: #3aa8b8;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.logoutButton:hover {
+  background-color: #c82333;
+}
+
+.homeButton:active,
+.logoutButton:active {
+  transform: translateY(0);
+}
+
+@media (max-width: 768px) {
+  .home-header {
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .home-header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+
+  .header-right,
+  .header-left {
+    float: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .logoutButton,
+  .homeButton {
+    width: 100%;
+    justify-content: center;
+    padding: 10px;
+    font-size: 14px;
+  }
+}
+

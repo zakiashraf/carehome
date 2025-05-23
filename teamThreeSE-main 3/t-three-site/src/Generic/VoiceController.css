@@ -1,0 +1,27 @@
+.voiceBase {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--Card--Background);
+  border-radius: 15px; 
+  width: 220px; 
+  min-height: 130px; 
+  margin-top: 2%;
+  box-shadow: var(--shadow--effect);
+  /* padding: 15px;  */
+  text-align: center; 
+  margin-right: 5%;
+  /* margin-left: 90px; */
+  margin-bottom: 1%;
+}
+
+
+.weatherBase p {
+  font-size: 1.5em;
+  text-align: center;
+}
+  
+  .darkModeBase{
+  
+  }
